@@ -10,6 +10,7 @@ body {
 
 nav,
 a {
+  color: #ffffff;
   font-size: 2.5rem;
 }
 
@@ -62,6 +63,8 @@ header nav a {
 
 main {
   margin: 5%;
+  display: flex;
+  flex-direction: column;
 }
 
 main h1,
@@ -100,6 +103,25 @@ button {
   background-color: orange;
   border: none;
 }
+
+.reseaux {
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  align-items: center;
+  color: #ffffff;
+}
+
+.botmain {
+  color: #ffffff;
+}
+
+video {
+  padding: 5%;
+}
+
+/* FOOTER */
 
 /* DESKTOP */
 
