@@ -40,13 +40,65 @@ span {
 /* HEADER */
 
 header {
+  margin: 5%;
   background: linear-gradient(#ffffff, #242424);
 }
 
+.logo {
+  width: 200px;
+}
+
 header nav a {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
   font-family: "BodegaSans", sans-serif;
+  font-size: 1.2rem;
   text-decoration: none;
   color: #ffffff;
+}
+
+/* MAIN */
+
+main {
+  margin: 5%;
+}
+
+main h1,
+main span {
+  padding: 5% 0;
+  font-size: 2rem;
+  text-align: center;
+}
+
+main h2,
+main h2 span,
+main h3 {
+  font-size: 1.5rem;
+}
+
+main h3 {
+  text-align: center;
+  padding-bottom: 2%;
+  color: orange;
+  border-bottom: solid 2px orange;
+}
+
+main p {
+  text-align: center;
+  padding: 1%;
+}
+
+main section article {
+  background-color: #ffffff;
+}
+
+button {
+  padding: 4%;
+  color: #ffffff;
+  width: 100%;
+  background-color: orange;
+  border: none;
 }
 
 /* DESKTOP */
