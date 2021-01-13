@@ -1,3 +1,55 @@
+/* GLOBAL */
+
+body {
+  margin: 0;
+  font-family: "Bodega Sans", sans-serif;
+  font-size: 1rem;
+  background-color: rgb(61, 61, 61);
+  background-image: url("../images/bg_body.svg");
+}
+
+nav {
+  font-size: 2.5rem;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Bodega Sans", sans-serif;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+span {
+  color: orange;
+}
+
+/* HEADER */
+
+header {
+  background: linear-gradient(#ffffff, #242424);
+}
+
+header nav a {
+  font-family: "Bodega Sans", sans-serif;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* MOBILE */
+
 @media screen and (max-width: 480px) {
   img {
     width: 100%;
