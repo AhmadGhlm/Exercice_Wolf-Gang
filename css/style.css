@@ -41,18 +41,26 @@ span {
 /* HEADER */
 
 header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   margin: 5%;
-  background: linear-gradient(#ffffff, #242424);
+  height: 400px;
+  background: linear-gradient(-28deg, #242424 50%, #ffffff 50%);
 }
 
 .logo {
-  width: 200px;
+  width: 70%;
+  margin: 0 17% 0 13%;
 }
 
 header nav a {
+  height: 60px;
+  margin: 0 5%;
+  margin-top: 6%;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  text-align: right;
   font-family: "BodegaSans", sans-serif;
   font-size: 1.2rem;
   text-decoration: none;
@@ -142,12 +150,38 @@ footer p {
 }
 
 .footernav a {
-  padding: 5%;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   font-size: 0.9rem;
-  text-align: center;
+}
+
+/* TABLETTE */
+
+@media screen and (max-width: 768px) {
+  header {
+    height: 200px;
+    background: linear-gradient(-35deg, #242424 50%, #ffffff 50%);
+  }
+
+  .logo {
+    padding: 5% 1%;
+    width: 170px;
+  }
+
+  header nav a {
+    height: 30px;
+    margin: 0 2%;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    text-align: right;
+    font-family: "BodegaSans", sans-serif;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #ffffff;
+  }
 }
 
 /* DESKTOP */
